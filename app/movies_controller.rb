@@ -70,7 +70,6 @@ def can_find_using_where_clause_and_be_sorted
   movie = Movie.order(release_date: :desc) 
   binding.pry
   movie.where(release_date)
-  end
   
 end
 
