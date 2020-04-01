@@ -71,7 +71,7 @@ def can_find_using_where_clause_and_be_sorted
   movie.find do |m| 
     m.release_date >= 2003 
   end
-  binding.pry
+  
 end
 
 def can_be_found_updated_and_saved
