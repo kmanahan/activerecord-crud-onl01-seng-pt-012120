@@ -69,7 +69,7 @@ def can_find_using_where_clause_and_be_sorted
   # release date descending
   movie = Movie.order(release_date: :desc) 
   binding.pry
-  movie.where(release_date)
+  movie.where("release_date > '2002'")
   
 end
 
